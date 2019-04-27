@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Card from "./components/card.js"
 import Title from "./components/title";
+import Board from "./components/board";
 
 function App() {
   return (
     <div className={"container"}>
         <Title/>
-        <Card />
+        <Board/>
     </div>
   );
 }
