@@ -80,7 +80,7 @@ class Board extends Component {
             <div className="row">
 
                 <div className="col">
-                    {this.state.cards.map((card, i) => <Card src={card.src} alt={"Rick and Morty"} data-clicked={card.clicked} key={i} onClick={this.handleChoice}/>)}
+                    {this.state.cards.map((card, i) => <Card src={card.src} data-clicked={card.clicked} key={i} onClick={this.handleChoice}/>)}
                 </div>
             </div>
         </div>
